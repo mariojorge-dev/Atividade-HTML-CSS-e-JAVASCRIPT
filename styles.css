@@ -26,7 +26,7 @@ button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 20px; /* Mais espaço entre o botão e a pontuação */
 }
 
 button:hover {
@@ -40,6 +40,22 @@ button:hover {
 
 input[type="radio"] {
     margin-right: 5px;
+}
+
+/* Estilos para as opções de resposta */
+input[type="radio"] + label {
+    background-color: #f7f7f7;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: block;
+}
+
+/* Estilos para a resposta selecionada */
+input[type="radio"]:checked + label {
+    background-color: #007BFF;
+    color: #fff;
+    border: 1px solid #0056b3;
 }
 
 #score {
