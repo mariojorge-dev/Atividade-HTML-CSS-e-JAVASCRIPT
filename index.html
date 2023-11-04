@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Quiz sobre HTML, CSS e JavaScript</title>
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz sobre HTML, CSS e JavaScript</h1>
+        <div id="question-container">
+            <p id="question">Pergunta 1: Qual das seguintes linguagens é usada para estruturar o conteúdo de uma página da web?</p>
+            <input type="radio" name="answer" value="HTML"> HTML<br>
+            <input type="radio" name="answer" value="CSS"> CSS<br>
+            <input type="radio" name="answer" value="JavaScript"> JavaScript<br>
+            <input type="radio" name="answer" value="Python"> Python<br>
+            <input type="radio" name="answer" value="Folha de Estilo em Cascatas"> Python<br>
+            <input type="radio" name="answer" value="Closures são variáveis ou funções que fazem parte do escopo de uma função, possuem acesso limitado ao escopo da função a que pertencem."> Python<br>
+            <button onclick="checkAnswer()">Próxima Pergunta</button>
+        </div>
+        <p id="score">Pontuação: 0</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
